@@ -1,0 +1,31 @@
+---
+galaxy_info:
+  role_name: serverspec
+  author: Ali Muhammad
+  description: Serverspec installation/uninstallation for infrastructure testing.
+  company: none
+  license: MIT
+  min_ansible_version: 2.4
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - xenial
+        - bionic
+    - name: Debian
+      versions:
+        - stretch
+        - buster
+    - name: EL
+      versions:
+        - 8
+
+  galaxy_tags:
+    - serverspec
+    - infrastructuretesting
+    - infrastructure
+    - testing
+    - os
+    - system
+
+dependencies: []
