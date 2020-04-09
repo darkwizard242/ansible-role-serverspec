@@ -1,0 +1,10 @@
+---
+# defaults file for serverspec
+
+ruby_app_debian_package: ruby-full
+ruby_app_el_package: ruby
+ruby_desired_state: present
+serverspec_app: serverspec
+serverspec_desired_state: present
+serverspec_user_install: no
+serverspec_include_dependencies: yes
