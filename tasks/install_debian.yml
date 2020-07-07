@@ -1,14 +1,14 @@
 ---
-# tasks file for serverspec - Debian
+# tasks file for serverspec - Debian/Ubuntu Family
 
-- name: "Installing {{ ruby_app_debian_package }} on Debian based systems as required for {{ serverspec_app }}"
+- name: Debian/Ubuntu Family | Installing {{ ruby_app_debian_package }} as required for {{ serverspec_app }}
   package:
     name: "{{ ruby_app_debian_package }}"
     state: "{{ ruby_desired_state }}"
     force_apt_get: yes
     update_cache: yes
 
-- name: "Installing {{ serverspec_app }} on Debian based systems"
+- name: Debian/Ubuntu Family | Installing {{ serverspec_app }}
   gem:
     name: "{{ serverspec_app }}"
     state: "{{ serverspec_desired_state }}"
