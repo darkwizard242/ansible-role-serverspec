@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   role_name: serverspec
-  author: Ali Muhammad
+  author: darkwizard242
   description: Serverspec installation/uninstallation for infrastructure testing.
   company: none
   license: MIT
