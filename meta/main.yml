@@ -12,14 +12,9 @@ galaxy_info:
       versions:
         - jammy
         - focal
-        - bionic
     - name: Debian
       versions:
         - bullseye
-        - buster
-    - name: EL
-      versions:
-        - 8
 
   galaxy_tags:
     - serverspec
